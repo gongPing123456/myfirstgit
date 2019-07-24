@@ -356,6 +356,13 @@
         <filtering>true</filtering>
       </resource>
     </resources>
+	
+	<resource>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*.properties</include>
+        </includes>
+      </resource>
 
   </build>
 </project>
