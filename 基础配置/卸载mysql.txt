@@ -1,0 +1,8 @@
+一  卸载msyql
+1.检查mysq服务是否开启  servcies.msc
+2.进入控制面板,找到程序卸载,卸载mysql
+3.找到你mysql的安装目录,删除MySQL文件
+4.在c盘下 打开隐藏目录,找到C:\ProgramData里面的mysql文件,删除
+5.删除注册表
+      HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MySQL
+	  HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MySQL
